@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="specific test method run">
+    <test name="only test04 method run">
+        <classes>
+            <class name="test.Test04_AmazonActions">
+                <methods>
+                    <include name="test04"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
